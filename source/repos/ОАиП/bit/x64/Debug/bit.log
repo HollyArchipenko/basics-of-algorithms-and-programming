@@ -1,0 +1,27 @@
+﻿Build started 31.10.2023 23:12:22.
+Logging verbosity is set to: Normal.     1>Project "D:\ФИТ БГТУ\опи\source\repos\ОАиП\bit\bit.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Debug\bit.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+         Touching "x64\Debug\bit.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt bit.cpp
+         bit.cpp
+     1>D:\ФИТ БГТУ\опи\source\repos\ОАиП\bit\bit.cpp(10,15): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\ФИТ БГТУ\опи\source\repos\ОАиП\x64\Debug\bit.exe" /INCREMENTAL /ILK:"x64\Debug\bit.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\ФИТ БГТУ\опи\source\repos\ОАиП\x64\Debug\bit.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\ФИТ БГТУ\опи\source\repos\ОАиП\x64\Debug\bit.lib" /MACHINE:X64 x64\Debug\bit.obj
+         bit.vcxproj -> D:\ФИТ БГТУ\опи\source\repos\ОАиП\x64\Debug\bit.exe
+       FinalizeBuildStatus:
+         Deleting file "x64\Debug\bit.tlog\unsuccessfulbuild".
+         Touching "x64\Debug\bit.tlog\bit.lastbuildstate".
+     1>Done Building Project "D:\ФИТ БГТУ\опи\source\repos\ОАиП\bit\bit.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+       "D:\ФИТ БГТУ\опи\source\repos\ОАиП\bit\bit.vcxproj" (Build target) (1) ->
+       (ClCompile target) -> 
+         D:\ФИТ БГТУ\опи\source\repos\ОАиП\bit\bit.cpp(10,15): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.31

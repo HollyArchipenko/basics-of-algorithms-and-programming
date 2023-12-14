@@ -1,0 +1,23 @@
+﻿Build started 07.09.2023 13:07:11.
+Logging verbosity is set to: Normal.     1>Project "D:\ФИТ БГТУ\опи\source\repos\опи\HelloWorld\HelloWorld.vcxproj" on node 3 (Rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\HelloWorld.tlog\HelloWorld.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\HelloWorld.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+         Touching "Debug\HelloWorld.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt HelloWorld.cpp
+         HelloWorld.cpp
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"D:\ФИТ БГТУ\опи\source\repos\опи\Debug\HelloWorld.exe" /INCREMENTAL /ILK:"Debug\HelloWorld.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\ФИТ БГТУ\опи\source\repos\опи\Debug\HelloWorld.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\ФИТ БГТУ\опи\source\repos\опи\Debug\HelloWorld.lib" /MACHINE:X86 Debug\HelloWorld.obj
+         HelloWorld.vcxproj -> D:\ФИТ БГТУ\опи\source\repos\опи\Debug\HelloWorld.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\HelloWorld.tlog\unsuccessfulbuild".
+         Touching "Debug\HelloWorld.tlog\HelloWorld.lastbuildstate".
+     1>Done Building Project "D:\ФИТ БГТУ\опи\source\repos\опи\HelloWorld\HelloWorld.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.87

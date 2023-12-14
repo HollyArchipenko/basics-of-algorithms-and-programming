@@ -1,0 +1,28 @@
+﻿Build started 07.09.2023 13:11:23.
+Logging verbosity is set to: Normal.     1>Project "D:\ФИТ БГТУ\опи\source\repos\опи\Lab_02\Lab_02.vcxproj" on node 2 (Rebuild target(s)).
+     1>PrepareForBuild:
+         Creating directory "D:\ФИТ БГТУ\опи\source\repos\опи\Release\".
+         Creating directory "Release\Lab_02.tlog\".
+       InitializeBuildStatus:
+         Creating "Release\Lab_02.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+         Touching "Release\Lab_02.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX86\x86\CL.exe /c /Zi /nologo /W3 /WX- /diagnostics:column /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"Release\\" /Fd"Release\vc143.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt lab02.cpp
+         lab02.cpp
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"D:\ФИТ БГТУ\опи\source\repos\опи\Release\Lab_02.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\ФИТ БГТУ\опи\source\repos\опи\Release\Lab_02.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /LTCGOUT:"Release\Lab_02.iobj" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\ФИТ БГТУ\опи\source\repos\опи\Release\Lab_02.lib" /MACHINE:X86 /SAFESEH Release\lab02.obj
+         Generating code
+         Previous IPDB not found, fall back to full compilation.
+         All 11 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+         Finished generating code
+         Lab_02.vcxproj -> D:\ФИТ БГТУ\опи\source\repos\опи\Release\Lab_02.exe
+       FinalizeBuildStatus:
+         Deleting file "Release\Lab_02.tlog\unsuccessfulbuild".
+         Touching "Release\Lab_02.tlog\Lab_02.lastbuildstate".
+     1>Done Building Project "D:\ФИТ БГТУ\опи\source\repos\опи\Lab_02\Lab_02.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.93
